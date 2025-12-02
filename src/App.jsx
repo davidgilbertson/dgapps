@@ -43,7 +43,7 @@ export default function App() {
               href={site.url}
               target="_blank"
               rel="noreferrer"
-              className="group block cursor-pointer rounded-2xl border border-slate-700 bg-slate-900 p-6 shadow-sm transition hover:-translate-y-1 hover:border-slate-700 hover:bg-slate-900/90 hover:shadow-lg"
+              className="group block cursor-pointer rounded-2xl border border-slate-700 bg-slate-950 p-6 shadow-sm transition hover:-translate-y-1 hover:border-slate-700 hover:bg-slate-900/90 hover:shadow-lg"
             >
               <div className="flex items-start justify-between gap-4">
                 <div>
