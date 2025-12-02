@@ -5,18 +5,33 @@ const sites = [
     url: "https://bpmpanda.web.app",
   },
   {
+    name: "Phased Time",
+    description: "A timer with on and off durations, and reps",
+    url: "https://phasedtimer.web.app",
+  },
+  {
     name: "Beat Parakeet",
     description: "Plays lo-fi tunes",
     url: "https://beatparakeet.web.app",
   },
   {
     name: "Know it all",
-    description: "If you don't know it all, at least know what you don't know.",
+    description: "If you don't know it all, at least know what you don't know",
     url: "https://know-it-all.io",
   },
   {
+    name: "List of Primes",
+    description: "A list of all the prime numbers. All of them.",
+    url: "https://list-of-primes.web.app",
+  },
+  {
+    name: "Disco Mundus",
+    description: "Game to help you remember all the suburbs of Sydney",
+    url: "https://discomundus.web.app",
+  },
+  {
     name: "English Counties",
-    description: "Game to help you remember all the English counties.",
+    description: "Game to help you remember all the English counties",
     url: "http://englishcounties.web.app",
   },
   {
