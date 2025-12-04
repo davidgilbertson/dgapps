@@ -20,6 +20,11 @@ const sites = [
     url: "https://know-it-all.io",
   },
   {
+    name: "Off by one",
+    description: "A word game",
+    url: "https://offbyone.web.app",
+  },
+  {
     name: "List of Primes",
     description: "A list of all the prime numbers. All of them.",
     url: "https://list-of-primes.web.app",
