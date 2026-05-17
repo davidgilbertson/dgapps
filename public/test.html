@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+  <title>Full height</title>
+  <script type="module" src="/test-assets/viewport-height.js"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      height: 100%;
+    }
+
+    body {
+      overflow-x: hidden;
+    }
+
+    #app {
+      height: var(--viewport-height, 100dvh);
+      padding: env(safe-area-max-inset-top, 0) env(safe-area-max-inset-right, 0) env(safe-area-max-inset-bottom, 0) env(safe-area-max-inset-left, 0);
+      display: grid;
+      grid-template-rows: 50px minmax(0, 1fr) 50px;
+      overflow: clip;
+      background: linear-gradient(
+        #e2e8f0 0 50px,
+        #f8fafc 50px calc(100% - 50px),
+        #e2e8f0 calc(100% - 50px)
+      );
+      color: #0f172a;
+      font-family: system-ui, sans-serif;
+    }
+
+    header,
+    footer,
+    main {
+      display: grid;
+      place-items: center;
+    }
+
+    main {
+      min-height: 0;
+    }
+
+    .marker {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background: #ef4444;
+    }
+  </style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <div class="marker"></div>
+  </header>
+  <main>Body</main>
+  <footer>
+    <div class="marker"></div>
+  </footer>
+</div>
+</body>
+</html>
